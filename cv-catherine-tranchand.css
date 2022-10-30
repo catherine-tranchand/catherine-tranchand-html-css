@@ -1,0 +1,211 @@
+/* Mon premier commentaire */
+body{
+    font-family: 'Monaco';
+    padding: 0;
+    margin: 0;
+    background-color:#002128;
+
+}
+
+nav{
+
+   text-align: center; /*pour centrer mon texte */
+   font-size: 20px;
+}
+
+ul{
+   display: flex;
+   justify-content:space-around;
+}
+a{
+   color:white;
+   text-decoration: none;
+
+}
+nav li {
+   display: inline;
+   list-style: none;
+}
+/*Fin partie header*/
+/*Debut image*/
+
+.image{
+    width: 100%;
+}
+/*Fin image*/
+
+/*Debut presentation*/
+.presentation h1{
+    font-family: 'Monaco';
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.parcours{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1cm;
+    font-family: 'Monaco';
+    color: white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    height: 55%;
+}    
+.parcoursgauche{
+    width: 60%;
+    margin-right:10px;
+
+}
+
+.parcoursimage{
+    margin-top: 2%;
+    float: right;
+}
+/*Fin accueil*/
+
+.formation{
+    background-image: url(bleu.jpg);
+    padding-bottom: 10%; /*ca va creer un espace en desous du dernier block blanc*/
+}
+
+
+.titreformation {
+    font-size: 14;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    font-family: 'Monaco';
+    text-align: center;
+    color: white;
+}
+
+.formation h1{
+    font-family: 'Monaco';
+    text-align: center;
+}
+
+.etudeuniver{
+
+    margin-left: 23%;
+
+}
+
+.univer {
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    align-items: center;
+}
+
+.univer img{
+    margin-left: 43%;
+    width: 15%;
+    height: 20%;
+
+}
+
+/* Fin Formation */
+
+.experiencepro{ 
+
+    background-image: url(sfm.jpg);
+    padding-bottom: 5%;
+}
+
+.titreexperiences{
+    font-size: 14;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    font-family: 'Monaco';
+    text-align: center;
+    color: white;
+}
+
+.experiencepro h1{
+    font-family: 'Monaco';
+    text-align: center;
+}
+
+.expcader{
+    margin-top: 5%;
+    margin-left: 23%;
+
+}
+
+.experiencesuniv {
+    margin-left: 210px;
+    margin-bottom: 60px;
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    align-items: center;
+
+}
+
+/*Debut Skills*/
+
+.skills{ 
+    background-image: url(ya.jpg);
+    padding-bottom: 25%;
+    margin-bottom:30px;
+    
+}
+
+
+.titreskills{
+    
+    font-size: large;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    font-family: 'Monaco';
+    text-align: center;
+    margin-right: 50px;
+    color: black;
+}
+
+.titrelangues {
+    margin-left: 50px;
+    font-size: 16;
+    font-weight: bold;
+    text-align: center;
+}
+
+.langues h1 {
+    margin-left: 60px;
+    padding-left: 50px;
+    font-family: 'Monaco';
+    text-align: right;
+    color: black;
+    
+}
+
+
+.expcader{
+    margin-top: 5%;
+    margin-left: 23%;
+    
+
+}
+
+.experiencesuniv {
+    margin-left: 210px;
+    margin-bottom: 60px;
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    align-items: center;
+
+}
+
+
+/*Debut contact*/
+.contact {
+    color: white;
+}
+
+.mail:hover{ /* :hover permet de changer des éléments au survol*/
+    color: lightblue;
+    font-weight: bold;
+}
+
+/*Fin contact*/
